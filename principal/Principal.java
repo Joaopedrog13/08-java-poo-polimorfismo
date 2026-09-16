@@ -12,5 +12,8 @@ public class Principal {
     
     pessoa = new PessoaJuridica("Escola", "03.278.251/0001-32");
     System.out.println(pessoa.getIdentificacao());
+    
+    pessoa = new PessoaEstrangeira("John", "AB123456");
+    System.out.println(pessoa.getIdentificacao());
   }
 }
